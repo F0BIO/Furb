@@ -28,7 +28,9 @@ public class Uni2Exe08 {
 
         double total = (valorPeca1 * quantidadePeca1) + (valorPeca2 * quantidadePeca2);
 
-        System.out.println("O valor total a ser pago: R$"+total);
+        System.out.println("Valor da peça"+peca1+": "+valorPeca1 * quantidadePeca1+
+                            "Valor da peça"+peca2+": "+valorPeca2 * quantidadePeca2+
+                            "O valor total a ser pago: R$"+total);
         
         sc.close();
     }
