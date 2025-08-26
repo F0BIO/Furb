@@ -24,4 +24,16 @@ com duas casas decimais. */
 
         sc.close();
     }
+
+/*Testes:
+ * 
+ * Entradas: 1, 10, 10
+ * Saidas: 100,00
+ * 
+ * Entradas: 2, 30, 10
+ * Saidas: 300,00
+ * 
+ * Entradas: 3, 46, 15
+ * Saidas: 690,00
+*/
 }

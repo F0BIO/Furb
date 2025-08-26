@@ -25,4 +25,16 @@ no plano, p1(x1,y1) e p2(x2,y2) e calcule a distância entre eles, mostrando
         sc.close();
 
     }
+
+/*Testes:
+ * 
+ * Entradas: |6|7|3|7|
+ * Saidas: 3,0000
+ * 
+ * Entradas: |72|3|6|73|
+ * Saidas: 96,2081
+ * 
+ * Entradas: |63|72|82|45|
+ * Saidas: 33,0151
+*/
 }

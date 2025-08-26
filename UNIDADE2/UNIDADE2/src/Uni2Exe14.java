@@ -27,5 +27,15 @@ public class Uni2Exe14 {
         
 
     }
-
+/*Testes:
+ * 
+ * Entradas: 10
+ * Saidas: 0, 0, 0, 1, 0, 0, 0
+ * 
+ * Entradas: 1365
+ * Saidas: 13, 1, 0, 1, 1, 0, 0
+ * 
+ * Entradas: 2255
+ * Saidas: 22, 1, 0, 0, 1, 0, 0
+*/
 }

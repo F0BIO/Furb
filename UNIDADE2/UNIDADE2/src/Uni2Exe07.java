@@ -26,4 +26,16 @@ no final do mês, com duas casas decimais. */
 
         sc.close();
     }
+
+/*Testes:
+ * 
+ * Entradas: Robson, 2000, 5000
+ * Saidas: 2750,00
+ * 
+ * Entradas: Pedro, 2150, 6000
+ * Saidas: 3050,00
+ * 
+ * Entradas: Jorge, 2200, 7000
+ * Saidas: 3250,00
+*/
 }

@@ -18,4 +18,15 @@ e multiplicando por π (π = 3.14159). */
 
         sc.close();
    }
+/*Testes:
+ * 
+ * Entradas: 5
+ * Saidas: 78.53975
+ * 
+ * Entradas: 7
+ * Saidas: 153.93791
+ * 
+ * Entradas: 2
+ * Saidas: 12.56636
+*/
 }

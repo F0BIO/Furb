@@ -17,4 +17,15 @@ public class Uni2Exe10 {
         
         sc.close();
     }
+/*Testes:
+ * 
+ * Entradas: 10000
+ * Saidas: 02:46:40
+ * 
+ * Entradas: 5000
+ * Saidas: 01:23:20
+ * 
+ * Entradas: 1000
+ * Saidas: 00:16:40
+*/
 }

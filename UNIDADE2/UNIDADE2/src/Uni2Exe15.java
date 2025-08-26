@@ -62,7 +62,18 @@ public class Uni2Exe15 {
         System.out.println("Moedas de 0,01: " + moeda001);
 
         sc.close();
-        
-
+    
     }
+
+/*Testes:
+ * 
+ * Entradas: 1455
+ * Saidas: 14, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0
+ * 
+ * Entradas: 945
+ * Saidas: 9, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0
+ * 
+ * Entradas: 6645
+ * Saidas: 66, 0, 2, 0, 1, 0, 0, 0, 0, 0, 0, 0
+*/
 }

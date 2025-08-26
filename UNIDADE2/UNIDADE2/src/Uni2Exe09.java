@@ -16,4 +16,15 @@ calcule quantos reais o atendente deve devolver para a pessoa. */
         System.out.println("USD $"+dolar+" são R$"+ reais);
         sc.close();
     }
+/*Testes:
+ * 
+ * Entradas: 10
+ * Saidas: 55.0
+ * 
+ * Entradas: 2
+ * Saidas: 11.0
+ * 
+ * Entradas: 47
+ * Saidas: 258.5
+*/
 }

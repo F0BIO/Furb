@@ -28,11 +28,21 @@ public class Uni2Exe08 {
 
         double total = (valorPeca1 * quantidadePeca1) + (valorPeca2 * quantidadePeca2);
 
-        System.out.println("Valor da peça"+peca1+": "+valorPeca1 * quantidadePeca1+
-                            "Valor da peça"+peca2+": "+valorPeca2 * quantidadePeca2+
-                            "O valor total a ser pago: R$"+total);
+        System.out.println("Valor da peça "+peca1+": R$"+valorPeca1 * quantidadePeca1+
+                            "\nValor da peça "+peca2+": R$"+valorPeca2 * quantidadePeca2+
+                            "\nO valor total a ser pago: R$"+total);
         
         sc.close();
     }
-
+/*Testes:
+ * 
+ * Entradas: 12, 2, 10, 15, 3, 8
+ * Saidas: 44.0
+ * 
+ * Entradas: 5, 3, 17, 8, 4, 20
+ * Saidas: 131.0
+ * 
+ * Entradas: 10, 8, 30, 3, 6, 2
+ * Saidas: 252.0
+*/
 }

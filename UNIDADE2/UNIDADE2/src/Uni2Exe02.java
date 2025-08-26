@@ -17,4 +17,15 @@ public class Uni2Exe02 {
         sc.close();
     }
 
+/*Testes:
+ * 
+ * Entradas: 7, 5
+ * Saidas: 35
+ * 
+ * Entradas: 10, 7
+ * Saidas: 70
+ * 
+ * Entradas: 4, 32
+ * Saidas: 128
+*/
 }

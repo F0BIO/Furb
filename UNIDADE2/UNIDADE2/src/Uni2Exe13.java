@@ -22,4 +22,15 @@ public class Uni2Exe13 {
 
     }
 
+/*Testes:
+ * 
+ * Entradas: 10
+ * Saidas: 20
+ * 
+ * Entradas: 5
+ * Saidas: 10
+ * 
+ * Entradas: 50
+ * Saidas: 100
+*/
 }
