@@ -15,14 +15,14 @@ disciplina e imprimira sua média ponderada
     public static void mediaPonderada(){
         Scanner sc = new Scanner(System.in);
         DecimalFormatSymbols simbolos = new DecimalFormatSymbols(Locale.US);
-        DecimalFormat df_2 = new DecimalFormat("0.00", simbolos);
+        DecimalFormat df = new DecimalFormat("0.00", simbolos);
         System.out.println("Digite as notas dos alunos: ");
         double nota1 = sc.nextDouble();
         double nota2 = sc.nextDouble();
         double nota3 = sc.nextDouble();
 
         double media = (nota1*0.5)+(nota2*0.3)+(nota3*0.2);
-        System.out.println("Média: "+ df_2.format(media));
+        System.out.println("Média: "+ df.format(media));
 
         sc.close();
     }

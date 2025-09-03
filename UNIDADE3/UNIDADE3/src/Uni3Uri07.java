@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Uni3Uri07 {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         String nomeFuncionario = sc.next();
@@ -10,7 +10,7 @@ public class Uni3Uri07 {
 
         double salario = salarioFixo + (TotalVendas*0.15);
 
-        System.out.printf("TOTAL = R$ %.2f%n", salario);
+        System.out.printf("Nome: "+nomeFuncionario+"\nTOTAL = R$ %.2f%n", salario);
 
         sc.close();
     }

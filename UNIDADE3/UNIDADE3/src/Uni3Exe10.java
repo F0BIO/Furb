@@ -15,7 +15,7 @@ Fórmula: */
         public static void calculoHipotenusa(){
         Scanner sc = new Scanner(System.in);
         DecimalFormatSymbols simbolos = new DecimalFormatSymbols(Locale.US);
-        DecimalFormat df_2 = new DecimalFormat("0.00", simbolos);
+        DecimalFormat df = new DecimalFormat("0.00", simbolos);
         System.out.print("Imforme o cateto oposto: ");
         double catetoOposto = sc.nextDouble();
         System.out.print("Imforme o cateto adjacente: ");
@@ -24,7 +24,7 @@ Fórmula: */
         double hipotenusa2 = Math.pow(catetoOposto, 2) + Math.pow(catetoAdjacente, 2);
 
         double hipotenusa = Math.sqrt(hipotenusa2);
-        System.out.println("A hipotenusa é: "+ df_2.format(hipotenusa));
+        System.out.println("A hipotenusa é: "+ df.format(hipotenusa));
         sc.close();
     }
 /*Testes:

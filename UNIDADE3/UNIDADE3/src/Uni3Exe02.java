@@ -21,14 +21,14 @@ O preço do par de sapatos com desconto é R$ xxx */
     public static void descontoSapato(){
         Scanner sc = new Scanner(System.in);
         DecimalFormatSymbols simbolos = new DecimalFormatSymbols(Locale.US);
-        DecimalFormat df_2 = new DecimalFormat("0.0#", simbolos);
+        DecimalFormat df = new DecimalFormat("0.0#", simbolos);
         System.out.println("Imforme o preço do sapato: ");
         float preco = sc.nextFloat();
 
         double desconto = preco * 0.12;
         double precoFinal = preco - desconto;
 
-        System.out.println("O valor do desconto é de R$"+ df_2.format(desconto));
+        System.out.println("O valor do desconto é de R$"+ df.format(desconto));
         System.out.printf("O preço do par de sapatos com desconto é R$%.2f%n", precoFinal);
         sc.close();
     }

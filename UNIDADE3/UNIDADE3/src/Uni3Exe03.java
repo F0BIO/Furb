@@ -16,8 +16,7 @@ colocar no tanque. */
     public static void precoAbastecer(){
         Scanner sc = new Scanner(System.in);
         DecimalFormatSymbols simbolos = new DecimalFormatSymbols(Locale.US);
-        DecimalFormat df_2 = new DecimalFormat("0.00", simbolos);
-        // sc.useLocale(Locale.US);
+        DecimalFormat df = new DecimalFormat("0.00", simbolos);
         System.out.println("Preço do litro de gasolina: ");
         double precoLitro = sc.nextDouble();
 
@@ -26,7 +25,7 @@ colocar no tanque. */
 
         double litrosAbastecidos = pagamento / precoLitro;
 
-        System.out.println("O motorista conseguiu colocar: "+ df_2.format(litrosAbastecidos) + " litros.");
+        System.out.println("O motorista conseguiu colocar: "+ df.format(litrosAbastecidos) + " litros.");
         sc.close();
     }
 /*Testes:

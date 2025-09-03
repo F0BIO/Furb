@@ -14,13 +14,13 @@ public class Uni3Exe11 {
     public static void converterCEmF(){
         Scanner sc = new Scanner(System.in);
         DecimalFormatSymbols simbolos = new DecimalFormatSymbols(Locale.US);
-        DecimalFormat df_2 = new DecimalFormat("0.00", simbolos);
+        DecimalFormat df = new DecimalFormat("0.00", simbolos);
         System.out.println("Imforme a temperatura(°C):");
         double celsius = sc.nextDouble();
 
         double fahrenheit = (celsius*9/5) + 32;
 
-        System.out.println(celsius+" °C são "+df_2.format(fahrenheit)+" °F");
+        System.out.println(celsius+" °C são "+df.format(fahrenheit)+" °F");
         sc.close();
     }
 /*Testes:

@@ -20,11 +20,10 @@ Exemplo, se for submetido o número 384, o programa deverá exibir:
         int num = sc.nextInt();
 
         int centenas = num / 100;
-            int dezenas = (num % 100) / 10;
-            int unidades = num % 10;
+        int dezenas = (num % 100) / 10;
+        int unidades = num % 10;
 
-            // Saída formatada
-            System.out.printf("%d centena(s)  %d dezena(s)  %d unidade(s)%n", centenas, dezenas, unidades);
+        System.out.printf("%d centena(s)  %d dezena(s)  %d unidade(s)%n", centenas, dezenas, unidades);
         sc.close();
     }
 /*Testes:

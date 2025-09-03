@@ -12,7 +12,7 @@ Descreva um programa que informe o nome, o salário bruto e o salário líquido 
         calculoSalario();
     }
 
-        public static void calculoSalario(){
+    public static void calculoSalario(){
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Nome: ");

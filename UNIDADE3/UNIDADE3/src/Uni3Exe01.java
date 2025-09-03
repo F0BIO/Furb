@@ -5,7 +5,7 @@ public class Uni3Exe01 {
 Faça um programa para ler as dimensões de um terreno e 
 depois exibir a área do terreno. */
     public static void main(String[] args) throws Exception {
-     calculoTerreno();
+        calculoTerreno();
     }
 
     public static void calculoTerreno(){
@@ -17,7 +17,7 @@ depois exibir a área do terreno. */
         int largura = sc.nextInt();
 
         int area = comprimento * largura;
-        System.out.println(area);
+        System.out.println("A área do tereno é: "+area);
         sc.close();
     }
 /*Testes:
