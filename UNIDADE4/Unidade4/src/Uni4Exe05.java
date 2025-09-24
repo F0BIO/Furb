@@ -21,3 +21,15 @@ public class Uni4Exe05 {
         new Uni4Exe05();
     }
 }
+
+/*Testes:
+ * 
+ * Entradas: 
+ * Saídas: 	
+ * 
+ * Entradas: 
+ * Saídas: 	
+ * 
+ * Entradas: 
+ * Saídas: 	
+*/
