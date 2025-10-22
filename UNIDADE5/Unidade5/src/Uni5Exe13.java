@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Uni5Exe13 {
+    float kmPorLitro, somakmPLitro, parada1, parada2, parada3;
     public Uni5Exe13(){
         Abastecimento();
     }
@@ -11,7 +12,7 @@ public class Uni5Exe13 {
 
     private void Abastecimento(){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Informe o número total de reabastecimentos::");
+        System.out.print("Informe o número total de reabastecimentos: ");
         float reabastecimentos = sc.nextFloat();
 
         if (reabastecimentos % 1 != 0 && reabastecimentos < 0) {
@@ -21,16 +22,30 @@ public class Uni5Exe13 {
         }
         for (int i = 1; i <= reabastecimentos; i++){
             System.out.println("Informe a distância até a "+i+"º parada");
-            float quilometragem = sc.nextFloat();
+            float quilometragem = sc.nextFloat(); System.out.println("Km");
             System.out.println("Informe a quantidade de combustível abastecido na "+i+"º parada");
             float combustivel = sc.nextFloat();
 
-            float kmPorLitro = quilometragem / combustivel;
+            kmPorLitro = quilometragem / combustivel;
 
-            System.out.println("Parada "+i+": "+kmPorLitro+" km por litro");
+            somakmPLitro += kmPorLitro;
 
-            float somakmPLitro =+ kmPorLitro;
+            if (i==1) {
+                parada1 = kmPorLitro;
+            }
+            else if (i==2){
+                parada2 = kmPorLitro;
+            }
+            else{
+                parada3 = kmPorLitro;
+            }
         }
+
+        float media = somakmPLitro / reabastecimentos;
+        System.out.println("Parada 1: "+parada1+" km por litro");
+        System.out.println("Parada 2: "+parada2+" km por litro");
+        System.out.println("Parada 3: "+parada3+" km por litro");
+        System.out.println("Quilometragem média obtida por litro: "+ media);
         sc.close();
     }
 }
