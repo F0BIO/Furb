@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Uni5Exe07 {
-    double maiorNum, menorNum;
+    double num;
     public Uni5Exe07(){
         maiorEMenor();
     }
@@ -15,13 +15,25 @@ public class Uni5Exe07 {
         System.out.println("Informe n:");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= n; i++){
-            System.out.println("Informe o "+i+"º número: ");
-            double num = sc.nextDouble();
+        if (n <= 0) {
+            System.out.println("Número inválido.");
+            System.out.print("n deve ser maior que 0: ");
+            n = sc.nextInt();
+        }
+        else {
+            System.out.print("Informe o 1º número: ");
+            num = sc.nextDouble();
+        }
+        double maiorNum = num; 
+        double menorNum = num;
+        for (int i = 2; i <= n; i++){
+            System.out.print("Informe o "+i+"º número: ");
+            num = sc.nextDouble();
+            
             if (num >= maiorNum) {
                 maiorNum = num;
             }
-            else{
+            if (num <= menorNum) {
                 menorNum = num;
             }
         }
