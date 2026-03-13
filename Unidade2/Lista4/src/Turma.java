@@ -17,7 +17,7 @@ public class Turma {
         return this.disciplina;
     }
 
-    public void setDisciplina(){
+    public void setDisciplina(String disciplina){
         if (disciplina == null || disciplina == "") {
             throw new RuntimeException("Obrigatorio informar a disciplina");
         }
@@ -62,5 +62,13 @@ public class Turma {
         alunos.remove(aluno);
     }
 
-    public Aluno obterAlunoMelhorNotaEnem(){}
+    public Aluno obterAlunoMelhorNotaEnem(){
+        Aluno alunoMaiorNota = alunos.get(0);
+        for (Aluno aluno : alunos) {
+            if(alunoMaiorNota.getNotaEnem() < aluno.getNotaEnem()){
+                alunoMaiorNota = aluno;
+            }
+        }
+        return alunoMaiorNota;
+    }
 }
